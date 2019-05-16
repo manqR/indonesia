@@ -15,14 +15,13 @@ auth = HTTPBasicAuth()
 mysql = MySQL()
 
 users = {
-     "adinugraha": "password123!@#",
      "demo": "demo123",
 }
 
 # MySQL configurations
-app.config['MYSQL_DATABASE_USER'] = 'maridaga_indon3s1a'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'ImkPUXVB$zpz'
-app.config['MYSQL_DATABASE_DB'] = 'maridaga_indon3s1a'
+app.config['MYSQL_DATABASE_USER'] = 'userDB'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'passwordDB'
+app.config['MYSQL_DATABASE_DB'] = 'mysqlDB'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 
 
